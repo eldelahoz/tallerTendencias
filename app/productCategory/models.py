@@ -1,6 +1,6 @@
 from django.db import models
-from ..product import *
-from ..category import *
+from ..product.models import *
+from ..category.models import *
 
 class product_category(models.Model):
     product = models.ForeignKey(Products, on_delete= models.CASCADE)
