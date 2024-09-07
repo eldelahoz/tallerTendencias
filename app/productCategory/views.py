@@ -1,11 +1,10 @@
-from django.shortcuts import render
 from rest_framework import viewsets, filters
-from django_filter.rest_framework import DjangoFilterBackend
+from django_filters.rest_framework import DjangoFilterBackend
 from .models import *
-from .serealizer import *
+from .serializer import *
 
 class productCategoryViewset(viewsets.ModelViewSet):
-    queryset = product_category.objects(all)
+    queryset = product_category.objects.all()
     serializer_class = productCategorySerializer
 
     filter_backends = [
