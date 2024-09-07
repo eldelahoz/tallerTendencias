@@ -21,3 +21,5 @@ Taller de TENDENCIAS EN DESARROLLO DE SOFTWARE / 001 / PRESOF24020010005
     - Filtrar productos por tienda y categoría.
 
     #Resultado: Enviar un PR (Pull request)  al branch de su grupo  en un archivo llamado de word , mostrar los resultados de la API, ingresar datos de ejemplo que demuestre el funcionamiento de la API
+
+Resultados API archivo [Word](Resultados-Api.docx)
